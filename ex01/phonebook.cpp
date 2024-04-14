@@ -34,7 +34,7 @@ void PhoneBook::search_contact()
 {
 	if (contacts_nb == 0)
 	{
-		std::cout << "No contacts" << std::endl;
+		print_color("No contacts",true, true, std::cerr);
 		return;
 	}
 	std::cout << ANSI_BOLD;
