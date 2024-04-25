@@ -41,7 +41,7 @@ std::string format(std::string str)
 		str = str.substr(0, 9) + ".";
 	int lim = 10 - str.length();
 	for (int i = 0; i < lim; i++)
-		str += " ";
+		std::cout << " ";
 	return str;;
 }
 
